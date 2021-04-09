@@ -1,21 +1,115 @@
 <!DOCTYPE html>
+
+<?php
+    header('Content-Type: text/html; charset=utf-8');
+?>
+
 <html>
     <head>
         <meta charset="uft-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="cv icon" href="assets/img/icones.PNG" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <title> Mon CV Virtuel </title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
         <header>
-
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                  <h5 class="text-white h4"><a class="btn btn-primary" href="#" role="button">CV</a></h5>
+                  <h6 class="text-white h5"><a class="btn btn-primary" href="#" role="button">Compétences</a></h6>
+                  <span class="text-muted"><a class="btn btn-primary" href="#" role="button">Contact</a></span>
+                </div>
+              </div>
+              <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
+            
         </header>
 
         <main>
+            <br>
+            <div class="carousel">
+                <div class="carousel_item carousel_item--visible">
+                    <img src="./assets/img/stage-etudiant-tournai-belgique-ecommerce.jpg" alt="img1">
+                </div>
+                <div class="carousel_item">
+                    <img src="./assets/img/CV-parfait.jpg" alt="img2">
+                </div>
+                <div class="carousel_item">
+                    <img src="./assets/img/capture-decran-2019-06-14-a-12-15-02.png" alt="img3">
+                </div>
 
+                <div class="carousel_actions">
+                    <button id="prev" aria-label="slide_avant" ><</button>
+                    <button id="next" aria-label="slide_suivante" >></button>
+            </div>
 
+            </div>
+            
+            <section>
+                <div class="PremierBlocCompetence">
+                    <h2>Pojet Professionnel</h1>
+                    <p>Actuellement en formation Concepteur Développeur d'Application  web à l'ORT de colomiers je cherche activement un stage pour valider mon titre Professionnel
+                        qui me permetrait de trouver un travail dans  le sécteur du numérique.   </p>
+                </div>
+                <div class="DeuxiemeBlocCompetence">
+                    <h2>Compétences</h2>
+                    <p>
+                        <li> Maîtrise des outils bureautiques 
+                            et messagerie Internet
+                        </li>
+                        <li>Compétences informatiques</li>
+                        <li>Contact et relation client</li>
+                        <li>Connaissances des bases en
+                            HTML5, CSS3, JS, SQL </li>
+                        <li>Analyse et résolution de 
+                            problèmes</li>
+                            
+                        
+                    </p>
+                </div>
+                <div class="TroisiemeBlocCompetence">
+                    <h2>Centre d'interet</h2>
+                    <p>
+                        <li>Intérêt pour les accessoires 
+                            high-tech</li>
+                        <li>Jeux vidéo (ordinateur)</li>
+                        <li>Football</li>
+                        <li>Famille</li>
+                        <li>Chineur d'objet de collection(achat - revente)</li>
+                        <br>
+                        
+
+                    </p>
+                </div>
+            </section>
+            
+            <table class="tableauEmployeur">
+                <thead>
+                    <tr>
+                        <th><img src="./assets/img/LOGO_MARKET-1li_Rouge.png" alt="img4"></th>
+                        <th><img src="./assets/img/png-clipart-blue-background-with-decathlon-text-overlay-decathlon2-logo-icons-logos-emojis-iconic-brands-thumbnail.png" alt="img5"></th>
+                        <th><img src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" alt="img6"></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>contenu</td>
+                        <td>contenu</td>
+                        <td>contenu</td>
+                    </tr>
+                </tbody>
+            </table>
+
+           
         </main>
 
         <footer>
@@ -33,5 +127,6 @@
 
 
     </body> 
-    <script type="module" src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="module" src="js/viewsjs/apps.js"></script>
 </html>

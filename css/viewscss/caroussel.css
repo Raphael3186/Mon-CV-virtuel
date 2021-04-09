@@ -1,52 +1,67 @@
-.pizzas.slider {
-    grid-area: pizzas;
-    overflow: hidden;
+.carousel{
+  overflow: hidden;
+  max-width: auto;
+  position:relative;
+  height: auto;
+  margin-top: -18px;
+  margin-bottom: 5px;
+  
+}
+.carousel .carousel_item,
+.carousel .carousel_item_hidden{
+  display: none;
+
+}
+
+.carousel .carousel_item{
+
+  max-width: auto;
+  height: auto;
+}
+
+.carousel .carousel_item--visible{
+  display:block;
+  animation: fadeVisibility 0.5s;
+}
+
+.carousel .carousel_actions{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel_actions button {
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.carousel .carousel_actions button#prev {
+  margin-left: 20px; 
+}
+
+.carousel .carousel_actions button#next {
+  margin-right: 20px;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
   }
-    .slides {
-      position: relative;
-      height: 100%;
-      left: 0;
-      width: calc(100% * 3);
-      transition: left .5s ease-in-out;
-    }
-    .pizza {
-      height: 100%;
-      position: relative;
-      float: left;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: calc(100% / 3);
-      background: url('./assets/img/bg-pizza.jpg') center no-repeat;
-      background-size: cover;
-    }
-    .pizza h1 {
-      user-select: none;
-      text-emphasis: uppercase;
-      text-shadow: 0 2px 2px var(--darken-secondary-color),
-                   -1px 0 2px var(--darken-secondary-color),
-                   0 -1px 2px var(--darken-primary-color),
-                   1px 0 2px var(--darken-primary-color);
-    }
-    .pizza .controls .prev,
-    .pizza .controls .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: 0;
-      transform: translateY(-50%);
-    }
-    .pizza .controls .prev {
-      left: 20px;
-      border-top: 30px solid transparent;
-      border-bottom: 30px solid transparent;
-      border-right: 30px solid var(--secondary-color);
-      box-shadow: 4px 0 0 var(--primary-color);
-    }
-    .pizza .controls .next {
-      right: 20px;
-      border-top: 30px solid transparent;
-      border-bottom: 30px solid transparent;
-      border-left: 30px solid var(--secondary-color);
-      box-shadow: -4px 0 0 var(--primary-color);
-    }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
+}
+.carousel img{
+  width: -webkit-fill-available;
+  height: 410px;
+  object-fit:contain;
+  
+}
