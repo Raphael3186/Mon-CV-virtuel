@@ -95,3 +95,10 @@ th,td{
 tbody tr, td, th{
   border: 2px solid midnightblue;
 }
+
+
+.cv-photo {
+  border-collapse: collapse;
+    width: -webkit-fill-available;
+}
+}
