@@ -34,6 +34,7 @@ section {
   height: 100px;
   margin: 60px;
   display: inline-block;
+  text-align: initial;
 }
 
 .PremierBlocCompetence h2,
@@ -43,6 +44,7 @@ section {
 }
 .PremierBlocCompetence h2{
   font-size: 20px;
+  
 }
 
 
@@ -69,7 +71,6 @@ li{
   min-width: 400px;
   width: 100%;
   box-shadow: 0 5px 50px rgb(8, 8, 8);
-  cursor:pointer;
   margin: 100px auto;
   border: 2px solid midnightblue;
 }
@@ -84,21 +85,59 @@ thead tr{
 thead tr img{
   max-width: 100%;
   width: auto;
-  height: 90px;
-  }
+  height: 110px;
+}
 
+th p{
+  font-size: 14px;
+}
+
+td p{
+  font-size: small;
+  font-weight: bold;
+  line-height: 1rem;
+  display:flex;    
+
+}
 th,td{
   padding: 60px 60px;
   text-align: center;
+  width: 1px;
 }
 
 tbody tr, td, th{
   border: 2px solid midnightblue;
 }
 
+.row{
+  
+}
 
 .cv-photo {
   border-collapse: collapse;
     width: -webkit-fill-available;
 }
+
+.col-sm-6{
+ margin-top: -90px;
+ margin-bottom: 10px;
+}
+.card{
+  border-top: 10px;
+
+}
+
+.card-text {
+  font-weight: bold;
+  text-align: center;
+  font-size: smaller;
+  color: rgb(100, 100, 218);
+}
+
+.card-title{
+  text-align: center;
+}
+
+.form-label{
+  height: 50%;
 }
