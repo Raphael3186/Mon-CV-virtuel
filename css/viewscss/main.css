@@ -115,7 +115,11 @@ tbody tr, td, th{
 
 .cv-photo {
   border-collapse: collapse;
-    width: -webkit-fill-available;
+    width: auto;
+}
+
+.card-title img{
+  height: auto;
 }
 
 .col-sm-6{
@@ -138,10 +142,10 @@ tbody tr, td, th{
   text-align: center;
 }
 
-.form-label{
-  height: 50%;
+.cv {
+  text-align: center;
 }
 
-.cv{
-  text-align: center;
+.mb-3 textarea {
+  height: 440px;
 }
