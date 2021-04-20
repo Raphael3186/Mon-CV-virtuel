@@ -141,3 +141,7 @@ tbody tr, td, th{
 .form-label{
   height: 50%;
 }
+
+.cv{
+  text-align: center;
+}

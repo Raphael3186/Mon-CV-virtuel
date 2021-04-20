@@ -1,10 +1,58 @@
 footer {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:  "menu about infos"
-                          ". admin .";
-    padding: 50px;
-    font-size: 0.7rem;
-    bottom:100%;
-    background: var(--primary-color);
+    flex-shrink: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgb(5, 5, 5);
     box-shadow: 0 -3px 2px var(--darken-secondary-color);
+}
+.Contenu-footer{
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(180, 179, 195);
+    padding: 30px 50px 10px
+}
+
+
+
+.Liste-informations-personelles,
+.Liste-informations-contact,
+.Liste-informations-reseau {
+    list-style-type: none;
+    padding: 2px 0;
+    padding-right: 140px;
+    
+}
+
+
+
+.Liste-informations-contact a{
+    color: none;
+    color: rgb(180, 179, 195);
+}
+
+.Liste-informations-reseau a{
+    color: none;
+    color: rgb(180, 179, 195);
+}
+.Liste-informations-reseau a:hover{
+    color: teal;
+}
+.Liste-informations-contact a:hover{
+    color: teal;
+}
+
+.footer-reseau{
+    padding-right: 130px;
+    padding-left: 130px;
+}
+
+.footer-contact{
+    padding-left: 150px;
+}
+
+.footer-services{
+    padding-right: 10px;
+}
