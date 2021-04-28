@@ -11,7 +11,7 @@ footer {
 .ListeInformationsContact,
 .Liste-informations-reseau {
     list-style-type: none;
-    padding: 3px 4px;
+    padding: 10px 4px;
     color:rgb(212, 195, 195);
     
 }
@@ -38,5 +38,8 @@ footer {
     padding: 16px;
     padding-top: 2px;
 }
-
+.Liste-informations-personelles li{ 
+    font-size: small;
+    h
+}
 

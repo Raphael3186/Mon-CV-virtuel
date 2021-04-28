@@ -11,7 +11,7 @@
         <link rel="cv icon" href="assets/img/icones.PNG" type="image/png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <title> Mon CV Virtuel </title>
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
 
     <body>
@@ -53,16 +53,15 @@
 
             </div>
             
-            <div class="row d-flex justify-content-around">
-                <div class="col-md-6 col-lg-4">
-                    <div class="PremierBlocCompetence" > 
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 competence">
+                     
                         <h2>Projet Professionnel</h1>
                         <p>Actuellement en formation Concepteur Développeur d'Application  web à l'ORT de Colomiers, je cherche activement un stage pour valider mon titre Professionnel
                             mes compétences transverses peuvent être un véritable atout pour votre entreprise.   </p>
-                    </div>        
-                </div>
-                <div class="col-md-6 col-lg-4"> 
-                    <div class="DeuxiemeBlocCompetence">
+                            
+                    </div>
+                    <div class="col-md-6 col-lg-4 competence"> 
                         <h2>Compétences</h2>
                         <p>
                             <li> Maîtrise des outils bureautiques 
@@ -74,11 +73,9 @@
                                 HTML5, CSS3, JS, SQL, PHP, UML, framework, Méthode Agiles (SCRUM)</li>
                             <li>Analyse et résolution de 
                                 problèmes</li>      
-                        </p>
-                    </div>    
-                </div>
-                <div class="col-md-6 col-lg-4"> 
-                    <div class="TroisiemeBlocCompetence">
+                        </p>    
+                    </div>
+                    <div class="col-md-6 col-lg-4 competence"> 
                         <h2>Centre d'intérêt</h2>
                         <p>
                             <li>Intérêt pour les accessoires 
@@ -89,8 +86,7 @@
                             <li>Chineur d'objet de collection(achat - revente)</li>
                             <br>
                         </p>
-                    </div>       
-                </div>
+                    </div>
             </div>
             <div class="tableaux"></div>
                 <table class="tableauEmployeur">
@@ -137,31 +133,36 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-xl-6">
-                    <div class="card">
+                    <div class="card border border-dark" style="width: auto;">
+                        <img class="card-img-top" style="max-width: fit-content;" src="/assets/img/1618931511407.jpg" alt="ma photo">
                     <div class="card-body">
-                        <h5 class="card-title"><img src="/assets/img/1618931511407.jpg" width="500" height="500"  alt="ma photo"></h5>
+                        <p class="card-text">Ma photo</p>
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
-                    <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Mon adresse:</p>
-                        <h5 class="card-title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0693416555628!2d1.2803900514557127!3d43.584271979021196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb3d0e51a4319%3A0xa3542624b93d2541!2s73%20Rue%20Albert%20Einstein%2C%2031830%20Plaisance-du-Touch!5e0!3m2!1sfr!2sfr!4v1617980458485!5m2!1sfr!2sfr" width="500" height="450"  loading="lazy"></iframe></h5>
+                    <div class="card border border-dark" style="width: auto;">
+                            <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0693416555628!2d1.2803900514557127!3d43.584271979021196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb3d0e51a4319%3A0xa3542624b93d2541!2s73%20Rue%20Albert%20Einstein%2C%2031830%20Plaisance-du-Touch!5e0!3m2!1sfr!2sfr!4v1617980458485!5m2!1sfr!2sfr" height="540" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                        <p class="card-text">Mon Adresse</p>
+                        <h5 class="card-title"></h5>
         
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">Mon CV:</p>
-                        <h5 class="cv"><embed src="/assets/cv2021.pdf" position = "Centre" width=500 height=550 type='application/pdf'/></h5>
-                        </div>
+                    <div class="card border border-dark mt-1" style="widht: auto;">
+                        <embed class="card-img-top" src="/assets/cv2021.pdf" width=500 height=519    type='application/pdf'/>
+                    <div class="card-body">
+                            <p class="card-text">Mon CV</p>
+                        <h5 class="cv"></h5>
+                    </div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
-                    <div class="card">
+                    <div class="card border border-dark">
                         <div class="card-body">
                         <div class="mb-3">
                             <form method="POST">
@@ -171,7 +172,7 @@
                                     <textarea class="form-control" name="message" id="exampleFormControlTextarea4"rows="16" required></textarea>
                                     <input type="submit" class="btn btn-primary">
                             </form>
-                            <?php
+                            <!--<?php
                             if (isset($_POST['message'])) {
                                 $position_arobase = strpos($_POST['email'], '@');
                                 if ($position_arobase === false)
@@ -185,6 +186,7 @@
                                 }
                             }
                             ?>
+                        -->
                         </div>
                         </div>        
                     </div>
@@ -193,6 +195,8 @@
             </div>
         </main>
         <br>
+
+
         <footer>
             <div class="d-flex justify-content-around">
                 <div class="Liste-informations-personelles">

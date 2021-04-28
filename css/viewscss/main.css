@@ -20,116 +20,17 @@
   transition: left .5s ease-in-out;
 }
 
-section {
-  text-align: center;
-  display:inline-flexbox;
-  height: auto;
-}
 
-
-.PremierBlocCompetence,
-.DeuxiemeBlocCompetence,
-.TroisiemeBlocCompetence{
-  width: 300px;
-  height: 100px;
-  margin: 60px;
-  display: inline-block;
-  text-align: initial;
-}
-
-.PremierBlocCompetence h2,
-.PremierBlocCompetence p{
-  width: 300px;
-
-}
-.PremierBlocCompetence h2{
-  font-size: 20px;
+.row {
+  --bs-gutter-x: -2rem;
   
 }
 
-
-.DeuxiemeBlocCompetence h2,
-.DeuxiemeBlocCompetence p{
-  width: 300px;
-   
-}
-
-.DeuxiemeBlocCompetence h2{
-  font-size: 20px;
-}
-
-li{
-  font-size: 13px;
-}
-
-.TroisiemeBlocCompetence h2 {
-  font-size:  20px;
-}
-
-.tableauEmployeur {
-  border-collapse: collapse;
-  min-width: 400px;
-  width: 100%;
-  box-shadow: 0 5px 50px rgb(8, 8, 8);
-  margin: 100px auto;
-  border: 2px solid midnightblue;
-}
-
-thead tr{
-  background-color:white;
-  color:rgb(8, 8, 8);
-  text-align: center;
-  padding: 20px 20px;
-}
-
-thead tr img{
-  max-width: 100%;
-  width: auto;
-  height: 110px;
-}
-
-th p{
-  font-size: 14px;
-}
-
-td p{
-  font-size: small;
-  font-weight: bold;
-  line-height: 1rem;
-  display:flex;    
-
-}
-th,td{
-  padding: 60px 60px;
-  text-align: center;
-  width: 1px;
-}
-
-tbody tr, td, th{
-  border: 2px solid midnightblue;
-}
-
-.row{
-  
-}
-
-.cv-photo {
-  border-collapse: collapse;
-    width: auto;
-}
-
-.card-title img{
+.row img{
   height: auto;
+  align-self: center;
 }
 
-.col-sm-6{
- margin-top: -90px;
- margin-bottom: 10px;
-}
-.card{
-  border-top: 10px;
-
-}
 
 .card-text {
   font-weight: bold;
@@ -146,6 +47,5 @@ tbody tr, td, th{
   text-align: center;
 }
 
-.mb-3 textarea {
-  height: 440px;
-}
+
+
