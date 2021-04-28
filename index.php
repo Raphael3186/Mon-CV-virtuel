@@ -53,43 +53,45 @@
 
             </div>
             
-            <section>
-                <div class="PremierBlocCompetence">
-                    <h2>Projet Professionnel</h1>
-                    <p>Actuellement en formation Concepteur Développeur d'Application  web à l'ORT de Colomiers, je cherche activement un stage pour valider mon titre Professionnel
-                        mes compétences transverses peuvent être un véritable atout pour votre entreprise.   </p>
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-6 col-lg-4">
+                    <div class="PremierBlocCompetence" > 
+                        <h2>Projet Professionnel</h1>
+                        <p>Actuellement en formation Concepteur Développeur d'Application  web à l'ORT de Colomiers, je cherche activement un stage pour valider mon titre Professionnel
+                            mes compétences transverses peuvent être un véritable atout pour votre entreprise.   </p>
+                    </div>        
                 </div>
-                <div class="DeuxiemeBlocCompetence">
-                    <h2>Compétences</h2>
-                    <p>
-                        <li> Maîtrise des outils bureautiques 
-                            et messagerie Internet
-                        </li>
-                        <li>Compétences informatiques</li>
-                        <li>Contact et relation client</li>
-                        <li>Connaissances des bases en
-                            HTML5, CSS3, JS, SQL, PHP, UML, framework, Méthode Agiles (SCRUM)</li>
-                        <li>Analyse et résolution de 
-                            problèmes</li>
-                            
-                        
-                    </p>
+                <div class="col-md-6 col-lg-4"> 
+                    <div class="DeuxiemeBlocCompetence">
+                        <h2>Compétences</h2>
+                        <p>
+                            <li> Maîtrise des outils bureautiques 
+                                et messagerie Internet
+                            </li>
+                            <li>Compétences informatiques</li>
+                            <li>Contact et relation client</li>
+                            <li>Connaissances des bases en
+                                HTML5, CSS3, JS, SQL, PHP, UML, framework, Méthode Agiles (SCRUM)</li>
+                            <li>Analyse et résolution de 
+                                problèmes</li>      
+                        </p>
+                    </div>    
                 </div>
-                <div class="TroisiemeBlocCompetence">
-                    <h2>Centre d'intérêt</h2>
-                    <p>
-                        <li>Intérêt pour les accessoires 
-                            high-tech</li>
-                        <li>Jeux vidéo (ordinateur)</li>
-                        <li>Football</li>
-                        <li>Famille</li>
-                        <li>Chineur d'objet de collection(achat - revente)</li>
-                        <br>
-                        
-
-                    </p>
+                <div class="col-md-6 col-lg-4"> 
+                    <div class="TroisiemeBlocCompetence">
+                        <h2>Centre d'intérêt</h2>
+                        <p>
+                            <li>Intérêt pour les accessoires 
+                                high-tech</li>
+                            <li>Jeux vidéo (ordinateur)</li>
+                            <li>Football</li>
+                            <li>Famille</li>
+                            <li>Chineur d'objet de collection(achat - revente)</li>
+                            <br>
+                        </p>
+                    </div>       
                 </div>
-            </section>
+            </div>
             <div class="tableaux"></div>
                 <table class="tableauEmployeur">
                     <thead>
@@ -134,52 +136,66 @@
                 </table>
             </div>
             <div class="row">
-                    <div class="col-sm-6">
-                      <div class="card">
+                <div class="col-lg-12 col-xl-6">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><img src="/assets/img/1618931511407.jpg" width="500" height="500"  alt="ma photo"></h5>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-6">
+                    <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Mon adresse:</p>
+                        <h5 class="card-title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0693416555628!2d1.2803900514557127!3d43.584271979021196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb3d0e51a4319%3A0xa3542624b93d2541!2s73%20Rue%20Albert%20Einstein%2C%2031830%20Plaisance-du-Touch!5e0!3m2!1sfr!2sfr!4v1617980458485!5m2!1sfr!2sfr" width="500" height="450"  loading="lazy"></iframe></h5>
+        
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-6">
+                    <div class="card">
                         <div class="card-body">
-                          <h5 class="card-title"><img src="/assets/img/1618931511407.jpg" width="500" height="500"  alt="ma photo"></h5>
+                            <p class="card-text">Mon CV:</p>
+                        <h5 class="cv"><embed src="/assets/cv2021.pdf" position = "Centre" width=500 height=550 type='application/pdf'/></h5>
                         </div>
-                      </div>
                     </div>
-                    <div class="col-sm-6">
-                      <div class="card">
+                </div>
+                <div class="col-lg-12 col-xl-6">
+                    <div class="card">
                         <div class="card-body">
-                            <p class="card-text">Mon adresse:</p>
-                          <h5 class="card-title"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0693416555628!2d1.2803900514557127!3d43.584271979021196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb3d0e51a4319%3A0xa3542624b93d2541!2s73%20Rue%20Albert%20Einstein%2C%2031830%20Plaisance-du-Touch!5e0!3m2!1sfr!2sfr!4v1617980458485!5m2!1sfr!2sfr" width="500" height="450"  loading="lazy"></iframe></h5>
-                          
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                          <div class="card-body">
-                              <p class="card-text">Mon CV:</p>
-                            <h5 class="cv"><embed src="/assets/cv2021.pdf" position = "Centre" width=500 height=550 type='application/pdf'/></h5>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="mb-3">
+                        <div class="mb-3">
+                            <form method="POST">
                                 <label for="exampleFormControlInput1" class="form-label">Email </label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                                     <label for="exampleFormControlTextarea1" class="form-label"> Message</label>    
-                                    <textarea class="form-control" id="exampleFormControlTextarea4"rows="16"></textarea>
-                                    <a href="#" class="btn btn-primary">Envoyer</a>
-                            </div>
-                          </div>        
+                                    <textarea class="form-control" name="message" id="exampleFormControlTextarea4"rows="16" required></textarea>
+                                    <input type="submit" class="btn btn-primary">
+                            </form>
+                            <?php
+                            if (isset($_POST['message'])) {
+                                $position_arobase = strpos($_POST['email'], '@');
+                                if ($position_arobase === false)
+                                    echo '<p>Votre email doit comporter un arobase.</p>';
+                                else {
+                                    $retour = mail('martin.raph@live.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+                                    if($retour)
+                                        echo '<p>Votre message a été envoyé.</p>';
+                                    else
+                                        echo '<p>Erreur.</p>';
+                                }
+                            }
+                            ?>
                         </div>
+                        </div>        
                     </div>
-                </div>    
+                </div>
+            </div>    
             </div>
-  
         </main>
-
+        <br>
         <footer>
-            <div class="Contenu-footer">
-
-                <div class="footer-services">
+            <div class="d-flex justify-content-around">
+                <div class="Liste-informations-personelles">
                     <h5>Informations Personelles<h5>
                     <ul class="Liste-informations-personelles">
                         <li>Raphael Martin</li>
@@ -188,22 +204,19 @@
                         <li>31830 - Plaisance du touch</li>
                     </ul>
                 </div>
-                
-                <div class="footer-contact">
+                <div class="ListeInformationsContact">
                     <h5>Me contacter</h5>                    
                     <ul class="Liste-informations-contact">
                         <li><a href="tel:0782630096"> 07.82.63.00.96</li>
                         <li><a href="mailto:martin.raph@live.fr">martin.raph@live.fr</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-reseau">
+                <div class="Liste-informations-reseau">
                     <h5>Réseau social</h5>
                     <ul class="Liste-informations-reseau">
                         <li><img src="/assets/img/linkedin.svg" width="15px" alt=""><a href="https://www.linkedin.com/in/rapha%C3%ABl-martin-60b0a7208/">Linkedin</a></li>
                     </ul>
-                </div>
-                
+                </div>    
             </div>
         
         </footer>
@@ -219,5 +232,5 @@
 
     </body> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script type="module" src="js/viewsjs/apps.js"></script>
+    <script type="module" src="main.js"></script>
 </html>

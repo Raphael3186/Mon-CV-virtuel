@@ -1,30 +1,24 @@
 footer {
-    padding: 35px;
+    padding: 60px;
     background: rgb(5, 5, 5);
     box-shadow: 0 -3px 2px var(--darken-secondary-color);
 }
-.Contenu-footer{
-    
-    display: flex;
-    justify-content: center;
-    color: rgb(180, 179, 195);
-    padding: 40px;
-}
+
 
 
 
 .Liste-informations-personelles,
-.Liste-informations-contact,
+.ListeInformationsContact,
 .Liste-informations-reseau {
     list-style-type: none;
-    padding: 2px 0;
-    padding-right: 140px;
+    padding: 3px 4px;
+    color:rgb(212, 195, 195);
     
 }
 
 
 
-.Liste-informations-contact a{
+.ListeInformationsContact a{
     color: none;
     color: rgb(180, 179, 195);
 }
@@ -36,13 +30,13 @@ footer {
 .Liste-informations-reseau a:hover{
     color: teal;
 }
-.Liste-informations-contact a:hover{
+.ListeInformationsContact a:hover{
     color: teal;
 }
 
-
-.footer-contact{
-    padding-left: 100px;
-    padding-right: 100px;
+.ListeInformationsContact ul{
+    padding: 16px;
+    padding-top: 2px;
 }
+
 
