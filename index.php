@@ -18,7 +18,7 @@
         <header>
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
-                    <h5 class="text-white h4"><a class="btn btn-light btn-sm" href="#cv" role="button">CV</a></h5>
+                    <h5 class="text-white h4"><a class="btn btn-light btn-sm" href="#cv_1" role="button">CV</a></h5>
                     <h6 class="text-white h5"><a class="btn btn-light btn-sm" href="#PremierBlocCompetence" role="button">Compétences</a></h6>
                     <span class="text-muted"><a class="btn btn-light btn-sm" href="#Liste-informations-contact" role="button">Contact</a></span>
                 </div>
@@ -64,6 +64,7 @@
                             
                     </div>
                     <div class="col-6 col-md-4 competence shadow-sm p-3 mb-5 bg-white rounded"> 
+                        <a name="PremierBlocCompetence" class="encre"></a>
                         <h2>Compétences</h2>
                         <p>
                             <li> Maîtrise des outils bureautiques 
@@ -155,7 +156,8 @@
                 </div>
                 <div class="col-lg-12 col-xl-6">
                     <div class="card border border-dark mt-1" style="widht: auto;">
-                        <embed class="card-img-top" src="/assets/cv2021.pdf" width=500 height=519    type='application/pdf'/>
+                        <a name="cv_1" class="encre"></a>
+                        <embed class="card-img-top" src="/assets/cv2021.pdf" width=500 height=519   type='application/pdf'/>
                     <div class="card-body">
                             <p class="card-text">Mon CV</p>
                         <h5 class="cv"></h5>
@@ -214,6 +216,7 @@
                     <ul class="Liste-informations-contact">
                         <li><a href="tel:0782630096"> 07.82.63.00.96</li>
                         <li><a href="mailto:martin.raph@live.fr">martin.raph@live.fr</a></li>
+                        <a name="Liste-informations-contact" class="encre"></a>
                     </ul>
                 </div>
                 <div class="Liste-informations-reseau">
