@@ -55,14 +55,15 @@
             </div>
             
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 competence">
+                    <div class="col-6 col-md-4 competence shadow-sm p-3 mb-5 bg-white rounded">
                      
                         <h2>Projet Professionnel</h1>
                         <p>Actuellement en formation Concepteur Développeur d'Application  web à l'ORT de Colomiers, je cherche activement un stage pour valider mon titre Professionnel
                             mes compétences transverses peuvent être un véritable atout pour votre entreprise.   </p>
+                        
                             
                     </div>
-                    <div class="col-md-6 col-lg-4 competence"> 
+                    <div class="col-6 col-md-4 competence shadow-sm p-3 mb-5 bg-white rounded"> 
                         <h2>Compétences</h2>
                         <p>
                             <li> Maîtrise des outils bureautiques 
@@ -76,7 +77,7 @@
                                 problèmes</li>      
                         </p>    
                     </div>
-                    <div class="col-md-6 col-lg-4 competence"> 
+                    <div class="col-6 col-md-4 competence shadow-sm p-3 mb-5 bg-white rounded"> 
                         <h2>Centre d'intérêt</h2>
                         <p>
                             <li>Intérêt pour les accessoires 
@@ -91,36 +92,42 @@
             </div>
             <br>
             <br>
-            <br>
             <div class="card-group">
-            <div class="card" style="width: 2rem;">
-                <h4 class="card-title">Vendeur chez</h4>
-                <img class="card-img-top" src="./assets/img/png-clipart-blue-background-with-decathlon-text-overlay-decathlon2-logo-icons-logos-emojis-iconic-brands-thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                <h3 class="card-title">Septembre 2012 à Aout 2013</h3>
-                <p class="card-text">- Recherche des besoins client</p>
-                <p class="card-text">- Mise en rayon</p>
-                <p class="card-text">- Prise d'appel</p>
+                <div class="card border border-primary shadow p-3 mb-5 bg-white rounded">
+                    <h4 class="card-title">Vendeur chez</h4>
+                    <br>
+                    <br>
+                    <br>
+                    <img class="card-img-top" src="./assets/img/png-clipart-blue-background-with-decathlon-text-overlay-decathlon2-logo-icons-logos-emojis-iconic-brands-thumbnail.png" alt="Card image cap">
+                    <div class="card-body">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="card-title">Septembre 2012 à Aout 2013</h3>
+                    <p class="card-text">- Recherche des besoins client</p>
+                    <p class="card-text">- Mise en rayon</p>
+                    <p class="card-text">- Prise d'appel</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h4 class="card-title">Vendeur expert chez</h4>
-                <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" height=450  alt="Card image cap">
-                <div class="card-body">
-                <h3 class="card-title">Mars 2014 à Avril 2016</h3>
-                <p class="card-text">- Formation des vendeurs débutants</p>
-                <p class="card-text">- Responsable du merchandising</p>
-                <p class="card-text">- Mise en place d’opération commerciale</p>
+                <div class="card border border-primary shadow p-3 mb-5 bg-white rounded">
+                    <h4 class="card-title">Vendeur expert chez</h4>
+                    <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png"  alt="Card image cap">
+                    <div class="card-body">
+                    <h3 class="card-title">Mars 2014 à Avril 2016</h3>
+                    <p class="card-text">- Formation des vendeurs débutants</p>
+                    <p class="card-text">- Responsable du merchandising</p>
+                    <p class="card-text">- Mise en place d’opération commerciale</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h4 class="card-title">Responsable adjoint chez</h4>
-                <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" height=450 alt="Card image cap">
-                <div class="card-body">
-                <h3 class="card-title">Avril 2016 à Septembre 2020</h3>
-                <p class="card-text">- Gestion RH, management des équipes</p>
-                <p class="card-text">- Gestion logistique </p>
-                <p class="card-text">- Gestion et résolution de problématique magasin</p>
+                <div class="card border border-primary shadow p-3 mb-5 bg-white rounded">
+                    <h4 class="card-title">Responsable adjoint chez</h4>
+                    <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h3 class="card-title">Avril 2016 à Septembre 2020</h3>
+                    <p class="card-text">- Gestion RH, management des équipes</p>
+                    <p class="card-text">- Gestion logistique </p>
+                    <p class="card-text">- Gestion et résolution de problématique magasin</p>
                 </div>
             </div>
             </div>
@@ -128,7 +135,7 @@
             <div class="row">
                 <div class="col-lg-12 col-xl-6">
                     <div class="card border border-dark" style="width: auto;">
-                        <img class="card-img-top" style="max-width: fit-content;" src="/assets/img/1618931511407.jpg" alt="ma photo">
+                        <img class="card-img-top" style="max-width: fit-content;" src="/assets/img/1618931511407.jpg"   alt="ma photo">
                     <div class="card-body">
                         <p class="card-text">Ma photo</p>
                     </div>
@@ -137,7 +144,7 @@
                 <div class="col-lg-12 col-xl-6">
                     <div class="card border border-dark" style="width: auto;">
                             <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0693416555628!2d1.2803900514557127!3d43.584271979021196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb3d0e51a4319%3A0xa3542624b93d2541!2s73%20Rue%20Albert%20Einstein%2C%2031830%20Plaisance-du-Touch!5e0!3m2!1sfr!2sfr!4v1617980458485!5m2!1sfr!2sfr" height="540" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0693416555628!2d1.2803900514557127!3d43.584271979021196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb3d0e51a4319%3A0xa3542624b93d2541!2s73%20Rue%20Albert%20Einstein%2C%2031830%20Plaisance-du-Touch!5e0!3m2!1sfr!2sfr!4v1617980458485!5m2!1sfr!2sfr" height="545" allowfullscreen></iframe>
                             </div>
                             <div class="card-body">
                         <p class="card-text">Mon Adresse</p>
@@ -156,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
-                    <div class="card border border-dark">
+                    <div class="card border border-dark mt-1">
                         <div class="card-body">
                         <div class="mb-3">
                             <form method="POST">
