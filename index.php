@@ -30,7 +30,8 @@
                   </button>
                 </div>
               </nav>
-            
+              
+                            
         </header>
 
         <main>
@@ -88,49 +89,42 @@
                         </p>
                     </div>
             </div>
-            <div class="tableaux"></div>
-                <table class="tableauEmployeur">
-                    <thead>
-                        <tr>
-                            <th>
-                                <p>Vendeur chez</p>
-                                <img src="./assets/img/png-clipart-blue-background-with-decathlon-text-overlay-decathlon2-logo-icons-logos-emojis-iconic-brands-thumbnail.png" alt="img4">
-                                <p>Septembre 2012 à Aout 2013</p>
-                            </th>
-                            <th>
-                                <p>Vendeur expert chez</p>
-                                <img src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" alt="img5">
-                                <p>Mars 2014 à Avril 2016</p>
-                            </th>
-                            <th>
-                                <p>Responsable adjoint chez</p>
-                                <img src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" alt="img6">
-                                <p>Avril 2016 à Septembre 2020</p>
-                            </th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>
-                                <p>- Recherche des besoins client</p>
-                                <p>- Mise en rayon</p>
-                                <p>- Prise d'appel</p>
-                            </td>
-                            <td>
-                                <p>- Formation des vendeurs débutants</p>
-                                <p>- Responsable du merchandising</p>
-                                <p>- Mise en place d’opération commerciale</p>
-                            </td>
-                            <td>
-                                <p>- Gestion RH, management des équipes</p>
-                                <p>- Gestion logistique </p>
-                                <p>- Gestion et résolution de problématique magasin</p>    
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <br>
+            <br>
+            <br>
+            <div class="card-group">
+            <div class="card" style="width: 2rem;">
+                <h4 class="card-title">Vendeur chez</h4>
+                <img class="card-img-top" src="./assets/img/png-clipart-blue-background-with-decathlon-text-overlay-decathlon2-logo-icons-logos-emojis-iconic-brands-thumbnail.png" alt="Card image cap">
+                <div class="card-body">
+                <h3 class="card-title">Septembre 2012 à Aout 2013</h3>
+                <p class="card-text">- Recherche des besoins client</p>
+                <p class="card-text">- Mise en rayon</p>
+                <p class="card-text">- Prise d'appel</p>
+                </div>
             </div>
+            <div class="card">
+                <h4 class="card-title">Vendeur expert chez</h4>
+                <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" height=450  alt="Card image cap">
+                <div class="card-body">
+                <h3 class="card-title">Mars 2014 à Avril 2016</h3>
+                <p class="card-text">- Formation des vendeurs débutants</p>
+                <p class="card-text">- Responsable du merchandising</p>
+                <p class="card-text">- Mise en place d’opération commerciale</p>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="card-title">Responsable adjoint chez</h4>
+                <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" height=450 alt="Card image cap">
+                <div class="card-body">
+                <h3 class="card-title">Avril 2016 à Septembre 2020</h3>
+                <p class="card-text">- Gestion RH, management des équipes</p>
+                <p class="card-text">- Gestion logistique </p>
+                <p class="card-text">- Gestion et résolution de problématique magasin</p>
+                </div>
+            </div>
+            </div>
+            <br>
             <div class="row">
                 <div class="col-lg-12 col-xl-6">
                     <div class="card border border-dark" style="width: auto;">
