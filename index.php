@@ -16,7 +16,7 @@
 
     <body>
         <header>
-            <div class="collapse" id="navbarToggleExternalContent">
+            <div class="collapse " id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
                     <h5 class="text-white h4"><a class="btn btn-light btn-sm" href="#cv_1" role="button">CV</a></h5>
                     <h6 class="text-white h5"><a class="btn btn-light btn-sm" href="#PremierBlocCompetence" role="button">Compétences</a></h6>
@@ -105,7 +105,7 @@
                     <br>
                     <br>
                     <br>
-                    <h3 class="card-title">Septembre 2012 à Aout 2013</h3>
+                    <h5 class="card-title">Septembre 2012 à Aout 2013</h5>
                     <p class="card-text">- Recherche des besoins client</p>
                     <p class="card-text">- Mise en rayon</p>
                     <p class="card-text">- Prise d'appel</p>
@@ -115,7 +115,7 @@
                     <h4 class="card-title">Vendeur expert chez</h4>
                     <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png"  alt="Card image cap">
                     <div class="card-body">
-                    <h3 class="card-title">Mars 2014 à Avril 2016</h3>
+                    <h5 class="card-title">Mars 2014 à Avril 2016</h5>
                     <p class="card-text">- Formation des vendeurs débutants</p>
                     <p class="card-text">- Responsable du merchandising</p>
                     <p class="card-text">- Mise en place d’opération commerciale</p>
@@ -125,7 +125,7 @@
                     <h4 class="card-title">Responsable adjoint chez</h4>
                     <img class="card-img-top" src="./assets/img/BCBC2A667523A57DEA255CourFB96642A26.png" alt="Card image cap">
                     <div class="card-body">
-                    <h3 class="card-title">Avril 2016 à Septembre 2020</h3>
+                    <h5 class="card-title">Avril 2016 à Septembre 2020</h5>
                     <p class="card-text">- Gestion RH, management des équipes</p>
                     <p class="card-text">- Gestion logistique </p>
                     <p class="card-text">- Gestion et résolution de problématique magasin</p>
